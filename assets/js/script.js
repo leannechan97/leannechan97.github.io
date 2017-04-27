@@ -1,12 +1,16 @@
 $(document).ready(function() {
 
-  $(".piece").hover(function() {
-    $(".pieceimg").css("background-color", red);
-  })
+  $("body").css('display', 'none');
+  $("body").fadeIn(2000);
 
-  $("#seework").click(function() {
-    $("#portfoliobody").css('display', 'none');
-    $("#portfoliobody").fadeIn(1000);
+  $(".piece").hover(function() {
+    $(this).parent().css("border-style", "dotted");
+  });
+
+  $("#hidethis").css('display', 'none');
+
+  $("#emailme").click(function() {
+    $(this).children().fadeIn(2000);
   });
 
 });
