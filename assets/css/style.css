@@ -1,0 +1,115 @@
+body{
+    background:#FFFFFF;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+#itme {
+  width:40%;
+}
+
+a:link {
+  text-decoration: none;
+  text-color: #E99B8B;
+}
+a:visited {
+text-decoration: none;
+color: #E99B8B;
+}
+
+a:hover {
+text-decoration: none;
+color: black;
+}
+
+a:active {
+text-decoration: none;
+color:black;
+}
+
+
+#portfoliobody {
+  margin:50px;
+}
+
+.backgroundimg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+  width: 100%;
+  z-index: -10;
+}
+
+#leanne {
+  width: 600px;
+  height:700px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50px;
+  bottom: 0;
+  margin: auto;
+  padding-top: 400px;
+  font-size:40px;
+}
+
+.pieceimg {
+  width: 200px;
+  height: 200px;
+  padding-bottom:80px;
+}
+
+#selfie {
+  width: 350px;
+
+}
+
+#pieceBlock {
+  position: relative;
+  overflow: hidden;
+  float: left;
+  top: 0;
+  bottom:0;
+  left: 0;
+  right:0;
+  margin-left: 45px;
+
+}
+
+.piece {
+  float: left;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px;
+
+}
+
+.pic {
+  width: 400px;
+}
+
+
+.homebar {
+  margin-left: 110px;
+  margin-top: 70px;
+}
+
+.itembar {
+  float: left;
+  padding-left: 30px
+}
+
+#about {
+  width: 500px;
+  height:700px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50px;
+  bottom: 0;
+  margin: auto;
+  padding-top: 400px;
+}
